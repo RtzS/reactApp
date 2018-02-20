@@ -1,0 +1,29 @@
+{
+  "name": "reactexpress",
+  "version": "1.0.0",
+  "description": "Start up Kit",
+  "main": "server.js",
+  "scripts": {
+    "client-install": "cd client && npm install",
+    "start": "node server.js",
+    "server": "nodemon index.js --ignore client",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "proxy": "localhost:3000",
+  "author": "Michael Dpenha",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "bootstrap": "^4.0.0-alpha.6",
+    "concurrently": "^3.5.1",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mongoose": "^5.0.5",
+    "react-router": "^3.0.0",
+    "reactionic": "^1.1.2"
+  },
+  "devDependencies": {
+    "concurrently": "^3.5.1"
+  }
+}
