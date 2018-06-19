@@ -49,18 +49,12 @@ app.post('/employeeList', function(req, res) {
     }
 });
 // app.get('/employeeList', (req, res) => {
-//     // const employees = [{
-//     //     "firstName": "Michael",
-//     //     "lastName": "Dpenha"
-//     // }, {
-//     //     "firstName": "Sumeet",
-//     //     "lastName": "Sonavane"
-//     // }, {
+//     // const employees = [ {
 //     //     "firstName": "Rutuja",
 //     //     "lastName": "Swami"
 //     // }, {
-//     //     "firstName": "Mayur",
-//     //     "lastName": "Patil"
+//     //     "firstName": "XYYZ",
+//     //     "lastName": "XYYZ"
 //     // }];
 //     // res.json(employees);
 //     if (mongodb != null && mongodb != undefined) {
